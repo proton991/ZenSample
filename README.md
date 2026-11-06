@@ -29,4 +29,5 @@ should be small examples of package playback, render-graph passes and lighting
 comparisons. These are planned topics, not implemented demos. The old scene viewer
 is retained only in ZenTest as regression/capture infrastructure.
 
-Commit and push changes here separately, then update the ZenEngine submodule pin.
+Submodule checkouts start on a detached HEAD, so run `git switch main` before committing.
+Push changes here separately; ZenEngine uses the latest `main` from its next configure.
